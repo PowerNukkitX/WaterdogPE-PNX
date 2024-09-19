@@ -54,7 +54,7 @@ public class CustomNetworkSettings extends Bedrock_v729 {
             .insert(63, ContainerSlotType.DYNAMIC_CONTAINER)
             .build();
 
-    public static final BedrockCodec CODEC = Bedrock_v686.CODEC.toBuilder()
+    public static final BedrockCodec CODEC = Bedrock_v712.CODEC.toBuilder()
             .raknetProtocolVersion(11)
             .protocolVersion(729)
             .minecraftVersion("1.21.30")
